@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="h1">Choose your favourite football players</h1>
+    <div id="container">
+      <p class="p">First Name:</p>
+      <input type="text" name="user" value="" id="fName" />
+      <p class="p">Last Name:</p>
+      <input type="text" name="user" value="" id="lName" />
+      <p class="p">Country:</p>
+      <input type="text" name="user" value="" id="country" />
+      <p class="p">Position in the field:</p>
+      <input type="text" name="user" value="" id="position" />
+    </div>
+    <div id="container2">
+      <button type="button" name="button" onClick="sendData()">Add</button>
+      <button type="button" name="button" onClick="getData()">Show</button>
+      <button type="button" name="button" onClick="findData()">Find</button>
+      <button type="button" name="button" onClick="deleteData()">Delete</button>
+      <button onClick="showPlayer()">Show players</button>
+      <button onClick="addPlayer()">Add players to your database</button>
+    </div>
+    <div id="root"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
