@@ -104,7 +104,6 @@ function findData() {
 }
 
 function showPlayer() {
-  console.log("hola");
   fetch(
     "https://v3.football.api-sports.io/players/topscorers?season=2018&league=61",
     {
